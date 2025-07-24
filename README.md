@@ -1,6 +1,7 @@
 # flight
 Flight Fare Analysis Project:
 This project performs exploratory data analysis (EDA) on a large dataset of Indian domestic flights. It uses Python libraries such as Pandas, Seaborn, and Matplotlib to uncover patterns in flight pricing based on various factors like airline, class, route, stops, and booking days in advance.
+
 📌 Project Motivation
 Flight ticket prices vary significantly based on when you book, which airline you choose, your source/destination, number of stops, and class (Economy or Business). This project aims to:
 
@@ -13,7 +14,9 @@ Identify airline and route pricing strategies
 Create helpful visualizations for business and consumers
 
 Dataset Overview:
+
 File: Clean_Dataset.csv
+
 Features:
 Column Name	Description
 airline	Airline operating the flight
@@ -47,6 +50,7 @@ bash
 Copy
 Edit
 pip install pandas seaborn matplotlib
+
 📊 Key Analyses & Visualizations
 Flight Counts by Airline
 
