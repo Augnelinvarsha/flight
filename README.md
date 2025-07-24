@@ -111,6 +111,76 @@ models used:
 
 *decision tree regressor
 
+1.  Linear Regression
+ Overview:
+Linear Regression assumes a linear relationship between the input features and the target variable. It tries to fit a straight line that minimizes the difference (error) between predicted and actual prices.
+
+ Use Case:
+Simple, interpretable model—useful when features have a linear correlation with price, such as duration or days_left.
+
+ Pros:
+Easy to implement and interpret
+
+Fast training time
+
+Good baseline model
+
+2.  Decision Tree Regressor
+ Overview:
+A decision tree splits the data into branches using conditions on feature values to predict the target value. It learns decision rules based on data patterns.
+
+ Use Case:
+Works well when you have categorical features like airline, stops, or class, and the relationships are not linear.
+
+ Pros:
+Captures nonlinear patterns
+
+Easy to visualize
+
+Handles categorical and numerical data
+
+3.  Gradient Boosting Regressor (GBR)
+ Overview:
+Gradient Boosting builds an ensemble of weak learners (typically trees) in sequence. Each new model learns from the errors of the previous model.
+
+Use Case:
+Powerful model for structured/tabular data, especially when you're optimizing for performance.
+
+Pros:
+High prediction accuracy
+
+Handles nonlinear relationships
+
+Robust to outliers and noise
+
+4.  K-Nearest Neighbors (KNN) Regressor
+ Overview:
+KNN predicts a value by averaging the target values of the k closest neighbors in the feature space. It is a non-parametric, instance-based algorithm.
+
+ Use Case:
+Best when the dataset is small to medium and the relationships are localized (e.g., similar duration and days_left may have similar prices).
+
+ Pros:
+Simple and intuitive
+
+No training phase
+
+Works well when similar observations have similar outcomes
+
+5.  Ridge Regression
+ Overview:
+Ridge Regression is a regularized version of Linear Regression that adds a penalty term to shrink coefficients and reduce overfitting.
+
+ Use Case:
+When your linear model is overfitting or when there is multicollinearity (correlated features).
+
+ Pros:
+Handles multicollinearity
+
+Less overfitting than plain Linear Regression
+
+Easy to implement and scale
+
 
 
 
